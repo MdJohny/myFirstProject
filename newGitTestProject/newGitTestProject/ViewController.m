@@ -22,6 +22,8 @@
     
     [self.view addSubview:label];
     NSLog(@"label is %@",label.text);
+    
+    NSLog(@" another line added");
     // Do any additional setup after loading the view, typically from a nib.
 }
 
