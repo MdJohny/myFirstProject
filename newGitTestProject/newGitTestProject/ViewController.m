@@ -21,6 +21,7 @@
     label.textColor = [UIColor redColor];
     
     [self.view addSubview:label];
+    NSLog(@"label is %@",label.text);
     // Do any additional setup after loading the view, typically from a nib.
 }
 
